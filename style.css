@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html {
@@ -12,12 +13,12 @@ html {
 
 header {
     padding: min(5vh, 4rem);
-    background-color: aquamarine;
+    background-color: #241fa5;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
-    box-shadow: 0 0.21rem 0.5rem #ff0000;
+    box-shadow: 0 0.21rem 0.5rem #00ddfa;
 }
 
 .header-pai {
@@ -34,20 +35,117 @@ header ul {
 header a {
     text-decoration: none;
     font-size: 1.5em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 header i {
     font-size: 6em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .section-01 {
-    display: flex;
-    align-items: center;
     width: 100%;
     padding: min(20vh, 15rem);
     background: linear-gradient(180deg, #111aa059 8.33%, rgba(22, 78, 182, 0.745) 100%), url(imagens/trees-4741364_1280.png);
     background-position: center;
     background-size: cover;
+}
+
+.section-01 h1 {
+    font-size: 5em;
+    color: black;
+}
+
+.section-01 span {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(164, 241, 255);
+}
+
+.section-01 p {
+    font-size: 1.3em;
+}
+
+.botoes{
+    display: flex;
+    gap: 25px;
+}
+
+.botoes div {
+    padding: 12px 18px;
+    background-color: black;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1rem; 
+}
+
+.botoes div a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-02 {
+    background-color: aliceblue;
+    width: 100%;
+    padding: min(20vh, 15rem);
+}
+
+.section-02 h2 {
+    font-size: 3em;
+}
+
+.section-02 div p {
+    font-size: 1.3em;
+}
+
+
+.pai {
+    display: flex; 
+    z-index: 1; 
+    flex-wrap: wrap; 
+    position: relative; 
+    gap: 30px;
+}
+
+.caixa {
+    width: 300px; 
+    height: 400px; 
+}
+
+.conteudo h3 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+}
+
+.conteudo i {
+    font-size: 2.5em;
+    margin-bottom: 1.5rem;
+}
+
+.section-03 {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    padding: min(20vh, 15rem);
+    display: flex;
+}
+
+.pai-02 {
+    display: flex; 
+    z-index: 1; 
+    flex-wrap: wrap; 
+    position: relative; 
+    gap: 20px;
+}
+
+.pai-03 {
+    display: flex; 
+    z-index: 1; 
+    flex-wrap: wrap; 
+    position: relative; 
+    gap: 20px;
+}
+
+.caixa-02 {
+    width: 300px; 
+    height: 100px; 
 }
