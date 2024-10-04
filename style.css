@@ -23,6 +23,7 @@ html {
     bottom: 20px; /*Define a distância da imagem em relação à parte inferior da tela*/
     width: 5rem; /*Defne a largura da imagem com 5 unidades de rem (relativas ao tamanho da fonte)*/
     height: auto; /*Ajusta a altura da imagem automaticamente para manter a proporção*/
+    z-index: 5;
 }
 
 header {
@@ -71,7 +72,7 @@ header i {
 }
 
 .section-01 span {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 900;
     color: rgb(164, 241, 255);
 }
@@ -198,7 +199,7 @@ header i {
     flex-wrap: wrap; 
     position: relative; 
     gap: 20px;
-    margin-left: 50px;
+  
 }
 
 .form-caixa {
@@ -228,8 +229,8 @@ header i {
 .botao-03 {
     display: flex;
     margin-left: 30px;
-    
 }
+
 .botao-03 div {
     padding: 10px 8px;
     width: 12rem;
@@ -257,7 +258,7 @@ footer {
 .div-icons a {
     text-decoration: none;
     color: white; 
-    font-size: 8em; 
+    font-size: 4em; 
     flex-wrap: wrap;
     position: relative;
 }
@@ -265,12 +266,20 @@ footer {
 
 .div-icons a i {
     background-color: rgba(240, 248, 255, 0.411); 
-    padding: 20px; 
+    padding: 10px; 
     border-radius: 14px; 
     text-align: center;
     margin: 10px;
 }
 
+form input {
+    padding: 10px 8px;
+    width: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
 
 
 @media (max-width: 830px) {
@@ -294,7 +303,7 @@ footer {
     }
 
     .section-01 h1 {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
     
     .section-01 span {
@@ -304,6 +313,8 @@ footer {
     .botoes {
         display: flex;
         flex-direction: column;
+        width: 15rem;
+        align-items: center;
     }
 
     .section-02 {
@@ -324,10 +335,25 @@ footer {
         gap: 5px;
     }
 
+    .text-01 h2 {
+        font-size: 2.9rem;
 
+    }
+    .caixa-03 {
+        margin-top: 30px;
+    }
+
+    .form-caixa {
+        margin-top: 30px;
+    }
+
+    .div-icons a {
+        font-size: 2rem;
+    }
 
     .whatsapp img {
-        width: 3.5rem;
+        width: 3rem;
+        z-index: 5;
     }
 }
 
