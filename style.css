@@ -149,7 +149,7 @@ header i {
     z-index: 1; 
     flex-wrap: wrap; 
     position: relative; 
-    gap: 30px;
+    gap: 10px;
 }
 
 .caixa-02 {
@@ -177,6 +177,12 @@ header i {
     width: 300px; 
     height: 100px; 
     margin-top: 155px;
+   
+}
+
+.caixa-04 {
+    width: 300px; 
+    height: 100px; 
 }
 
 .pai-03 h3 {
@@ -189,7 +195,7 @@ header i {
 }
 
 .text-01 h2 {
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 0.5rem;
 }
 
@@ -199,7 +205,6 @@ header i {
     flex-wrap: wrap; 
     position: relative; 
     gap: 20px;
-  
 }
 
 .form-caixa {
@@ -282,7 +287,7 @@ form input {
 }
 
 
-@media (max-width: 830px) {
+@media (max-width: 834px) {
     header i {
         font-size: 3rem;
         z-index: 999;
@@ -339,12 +344,26 @@ form input {
         font-size: 2.9rem;
 
     }
+
+    .caixa-02 {
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
     .caixa-03 {
-        margin-top: 30px;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        
+    }
+
+    .caixa-04 {
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        
     }
 
     .form-caixa {
-        margin-top: 30px;
+        margin-top: 5rem;
+        flex-wrap: wrap;
     }
 
     .div-icons a {
